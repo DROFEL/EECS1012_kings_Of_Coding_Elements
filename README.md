@@ -3,9 +3,13 @@
 Team Name:  kings_Of_Coding
 
 Team Members: 
+
 Samir Osmani     	   samir241@my.yorku.ca	Section B	Lab 04
+
 Georgy Retinskiy	   drofel@my.yorku.ca		Section B	Lab 04
+
 Yukun Xie		   robertx@my.yorku.ca	Section B 	Lab 04
+
 
 Project Title: Element Wars
 
