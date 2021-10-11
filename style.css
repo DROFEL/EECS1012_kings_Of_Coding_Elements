@@ -1,0 +1,16 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+body{
+    /* Thats 2 options for background 1st is procedural and lighter while 2nd is prettier, but its picture, so the loading time is increased */
+    background-image: linear-gradient(0.05turn, #020811, #131519, #1e1e21, #282829, #323232);
+    /*background-image: url("/Source/background_n.png"); */
+    
+    width: 100vw;
+    height: 100vh;
+
+
+    overflow: hidden; /* Hide scroll bars*/
+}
