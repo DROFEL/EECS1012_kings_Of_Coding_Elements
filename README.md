@@ -44,3 +44,7 @@ Project Description: Element wars is a similar game to rock paper and scissors b
 - The exit button will exit completely and will say thanks for playing message after can not do anything else
 
 - Numbers will be the deciding factor to see which element wins for example 1 will be for fire, 2 for wind and 3 for water
+
+
+If not joined https://www.figma.com/team_invite/redeem/afqIupsYrDCzOMZ86xD5eC
+If joined https://www.figma.com/file/5f9KLNtmGhDuCbFRQ7lvGS/Untitled?node-id=243%3A1
