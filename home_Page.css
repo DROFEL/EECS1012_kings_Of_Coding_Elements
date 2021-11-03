@@ -1,0 +1,27 @@
+h1{
+    color: black;
+    text-align: center;
+}
+span{
+    color: whitesmoke;
+   
+}
+
+body{
+    background-color: black;
+}
+#button{
+    color: black;
+    background-color: white;
+    border-color: blue;
+    font-style: oblique;
+    border-radius: 8px;
+    font-size: 30px;
+}
+.btn{
+    text-align: center;
+    padding-top: 500px;
+}
+#button:hover{
+    box-shadow: 0 12px 16px 0 rgba(255, 255, 255, 0.24), 0 17px 50px 0 rgba(255, 255, 255, 0.19);
+}
