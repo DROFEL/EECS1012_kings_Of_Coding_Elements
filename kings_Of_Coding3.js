@@ -10,15 +10,34 @@ function impossible(){
   
 }
 
-function load(){
-    click.play();
+function load(pageName){
+
+    var body = document.getElementById("parent");
+    body.classList.add("unload");
+    unload();
+    
+    fetch('./' + pageName + '.html')
+    .then(function(response){
+        return response.text();
+    })
+    .then(function(text){
+        console.log(text);
+        body.classList.remove("unload");
+        body.classList.add("load");
+        body.innerHTML = text;
+    });
 }
 
-function loadSounds(){
-    
+function unload(){
+
+    var body = document.getElementById("parent");
+    body.innerHTML = '<div></div>';
 }
 
-function playSound(name){
-    
-    audio.play();
-}
+function sleep(milliseconds) {
+    const date = Date.now();
+    let currentDate = null;
+    do {
+      currentDate = Date.now();
+    } while (currentDate - date < milliseconds);
+  }

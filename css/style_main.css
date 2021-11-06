@@ -14,6 +14,19 @@ body{
 
 
     overflow: hidden; /* Hide scroll bars*/
+
+    transition: opacity 0.2s ease-out;
+    transition: margin-top 5s ease ease-out;
+}
+
+body.unload {
+    
+    opacity: 0%;
+    margin-top: 5vh;
+}
+
+body.load{
+    opacity: 100%;
 }
 
 
@@ -26,18 +39,40 @@ span{
    
 }
 
-#button{
-    color: black;
-    background-color: white;
-    border-color: blue;
-    font-style: oblique;
-    border-radius: 8px;
-    font-size: 30px;
+p{
+    color: whitesmoke;
+    text-align: center;
+    font-size: 25px;
+    margin-left: 100px;
+    margin-right: 100px;
 }
+
+.button{
+    padding: 10px;
+    margin: 20px;
+
+    background-image: linear-gradient(15deg, #fcae48 0%, #ffd95b 100%);
+
+    border-color: transparent;
+    border-radius: 8px;
+    box-shadow: 0px 0px 2px 3px rgb(60, 59, 59);
+
+    transition: box-shadow 0.15s ease-in;
+    
+}
+
+.button p {
+    color: rgb(0, 0, 0);
+    font-style: oblique;
+    font-size: 1.8em;
+    padding: 10px;
+}
+
 .btn{
     text-align: center;
     padding-top: 500px;
 }
-#button:hover{
-    box-shadow: 0 12px 16px 0 rgba(255, 255, 255, 0.24), 0 17px 50px 0 rgba(255, 255, 255, 0.19);
+
+.button:hover{
+    box-shadow: 0 3px 20px 0px rgba(179, 89, 62, 0.679), 0 17px 50px 5px rgba(209, 154, 82, 0.7);
 }
