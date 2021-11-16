@@ -33,11 +33,3 @@ function unload(){
     var body = document.getElementById("parent");
     body.innerHTML = '<div></div>';
 }
-
-function sleep(milliseconds) {
-    const date = Date.now();
-    let currentDate = null;
-    do {
-      currentDate = Date.now();
-    } while (currentDate - date < milliseconds);
-  }
