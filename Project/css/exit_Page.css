@@ -1,0 +1,21 @@
+
+
+html{
+    font-family: Brush Script MT, Brush Script Std, cursive;
+    font-size: 50px;
+    text-align: center;
+    color: whitesmoke;
+    
+}
+
+body{
+    background-image: linear-gradient(0.05turn, #020811, #131519, #1e1e21, #282829, #323232);
+    
+    
+    width: 100vw;
+    height: 100vh;
+
+
+    overflow: hidden; /* Hide scroll bars*/
+}
+

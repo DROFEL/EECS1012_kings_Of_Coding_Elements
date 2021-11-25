@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Fruktur&display=swap');
+
+html{
+    font-family: 'Fruktur', cursive;
+    color: whitesmoke;
+    text-align: center;
+    font-size: 20px;
+}
+
+body{
+    background-image: linear-gradient(0.05turn, #020811, #131519, #1e1e21, #282829, #323232);
+    
+    
+    width: 100vw;
+    height: 100vh;
+
+
+    overflow: hidden; /* Hide scroll bars*/
+}
+
+
+h1{
+    color: black;
+    text-align: center;
+}
+span{
+    color: whitesmoke;
+   
+}
+
+#button{
+ 
+    font-size: 30px;
+}
+.btn{
+    text-align: center;
+    padding-top: 400px;
+    cursor: pointer;
+}
+.exit{
+    
+    position: fixed;
+    bottom: 0;
+    right: 0;
+}
+.exit:hover{
+    cursor: pointer;
+}
+.ty{
+    font-style: Brush Script MT;
+}
+#button:hover{
+    box-shadow: 0 12px 16px 0 rgba(255, 255, 255, 0.24), 0 17px 50px 0 rgba(255, 255, 255, 0.19);
+    
+}
+.results{
+    
+    display: grid;
+    float: top;
+   text-align: center;
+    grid-template-columns:auto auto auto;
+    padding-top: 1rem;
+    font-size: 14px;
+    margin-bottom: 1rem;
+}
+.player{
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+.computer{
+    padding-left: 1rem;
+    padding-right: 1rem;
+  
+}

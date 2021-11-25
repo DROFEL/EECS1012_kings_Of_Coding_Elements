@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Fruktur&display=swap');
+
+html{
+    font-family: 'Fruktur', cursive;
+    color: whitesmoke;
+    
+}
+
+body{
+    background-image: linear-gradient(0.05turn, #020811, #131519, #1e1e21, #282829, #323232);
+    
+    
+    width: 100vw;
+    height: 100vh;
+
+
+    overflow: hidden; /* Hide scroll bars*/
+}
+
+p{
+    text-align: center;
+}
+
+h1{
+    text-align: center;
+}
+span{
+    color: whitesmoke;
+   
+}
+
+.button{
+    color: black;
+    background-color: white;
+    border-color: blue;
+    font-style: oblique;
+    border-radius: 8px;
+    font-size: 30px;
+}
+.btn{
+    text-align: center;
+    padding-top: 500px;
+}
+.button:hover{
+    box-shadow: 0 12px 16px 0 rgba(255, 255, 255, 0.24), 0 17px 50px 0 rgba(255, 255, 255, 0.19);
+}
